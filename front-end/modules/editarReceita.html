@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Receita</title>
+    <link rel="stylesheet" href="../css/cadastroReceita.css">
+    <script src="../js/editarReceita.js" defer></script>
+</head>
+<body>
+    <header class="lateral">
+        <img class="logo" src="../img/logo.jpg" alt="Logo da Empresa">
+            <h3>Gerenciador Financeiro</h3>
+        <hr>
+        <section class="links">
+            <a href="receita.html"><p class="btn">Receitas</p>
+            </a>
+            <a href="depesas.html"><p class="btn">Despesas</p>
+            </a>
+            <a href="relatorios.html"><p class="btn">Relatórios</p>
+            </a>
+        </section>
+    </header>
+    <main class="principal">
+        <h1>Cadastro de Receitas</h1>
+        <form action="">
+            <div>
+                <label for="descricao">Descrição:</label>
+                <input type="text" name="descricao" id="descricao" required minlength="3">
+            </div>
+            <div>
+                <label for="data de vencimento">Data da Receita:</label>
+                <input type="date" name="data de vencimento" id="dtreceita" required>
+            </div>
+            <div>
+                <label for="valor">Valor:</label>
+                <input type="number" name="valor" id="valor" required>
+            </div>
+            <div>
+                <button type="button" onclick="atualizarReceita()">Atualizar</button>
+            </div>
+        </form>
+        <footer id="rodape">
+            <p>Desenvolvido por Nathan Rodrigues e Vitor Stosick</p>
+        </footer>
+    </main>
+</body>
+</html>

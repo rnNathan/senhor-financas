@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+C:\Users\Z1N\Desktop\senhor-financas\back_end\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+4173363601.index
+1143464478.index
+918273717.index
+2851709649.index
+3727904288.index

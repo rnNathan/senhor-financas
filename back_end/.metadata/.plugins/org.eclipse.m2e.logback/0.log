@@ -1,0 +1,25 @@
+2023-12-10 12:04:38,170 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-12-10 12:04:57,882 [Worker-14: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Senhor-financas:Senhor-financas:0.0.1-SNAPSHOT @ C:\Users\Z1N\Desktop\senhor-financas\back_end\Senhor-financas\pom.xml.
+2023-12-10 12:04:59,137 [Worker-14: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Senhor-financas/src/main/java
+2023-12-10 12:04:59,138 [Worker-14: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Senhor-financas/src/test/java
+2023-12-10 12:04:59,688 [Worker-14: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2023-12-10 12:05:00,297 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-10 12:05:00,298 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Z1N\Desktop\senhor-financas\back_end\Senhor-financas\src\main\resources
+2023-12-10 12:05:00,300 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-10 12:05:00,301 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Z1N\Desktop\senhor-financas\back_end\Senhor-financas\src\test\resources
+2023-12-10 12:05:22,855 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-12-10 12:05:22,992 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Senhor-financas:Senhor-financas:0.0.1-SNAPSHOT @ C:\Users\Z1N\Desktop\senhor-financas\back_end\Senhor-financas\pom.xml.
+2023-12-10 12:05:23,289 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Senhor-financas/src/main/java
+2023-12-10 12:05:23,290 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Senhor-financas/src/test/java
+2023-12-10 12:05:23,461 [Worker-1: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Senhor-financas
+2023-12-10 12:05:23,472 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 0,00 sec, update config takes 0,00 sec 
+2023-12-10 12:05:23,677 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-10 12:05:23,678 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Z1N\Desktop\senhor-financas\back_end\Senhor-financas\src\main\resources
+2023-12-10 12:05:23,679 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-10 12:05:23,679 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Z1N\Desktop\senhor-financas\back_end\Senhor-financas\src\test\resources
+2023-12-10 12:05:23,680 [Worker-4: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Senhor-financas
+2023-12-10 12:05:23,680 [Worker-4: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Senhor-financas
+2023-12-10 12:09:42,101 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-10 12:09:42,101 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Z1N\Desktop\senhor-financas\back_end\Senhor-financas\src\main\resources
+2023-12-10 12:09:42,102 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-10 12:09:42,103 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Z1N\Desktop\senhor-financas\back_end\Senhor-financas\src\test\resources

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Despesa</title>
+    <link rel="stylesheet" href="../css/cadastroDespesa.css">
+    <script src="../js/despesa.js" defer></script>
+</head>
+<body>
+    <header class="lateral">
+        <img class="logo" src="../img/logo.jpg" alt="Logo da Empresa">
+        <h3>Gerenciador Financeiro</h3>
+        <hr>
+        <section class="links">
+                <a href="receita.html"><p class="btn">Receitas</p></a>
+                <a href="depesas.html"><p class="btn">Despesas</p></a>
+                <a href="relatorios.html"><p class="btn">Relatórios</p></a>
+        </section>
+    </header>
+    <main class="principal">
+        <h1>Cadastro de Despesas</h1>
+        <form action="" id="formulario">
+            <div>    
+                <label for="descricao">Descrição:</label>
+                <input type="text" id="descricao" name="descricao" required minlength="3">
+            </div>
+            <div>
+                <label for="valor">Valor:</label>
+                <input type="number" id="valor" id="valor" name="valor" required>
+            </div>
+            <div>
+                <label for="data de vencimento">Data de Vencimento:</label>
+                <input type="date" id="dtvencimento" name="data de vencimento" required>
+            </div>
+            <div>
+                <label for="data de pagamento">Data de Pagamento:</label>
+                <input type="date" id="dtpagamento" name="data de pagamento" required>
+            </div>
+            <div>
+                <button type="button" onclick="cadastrarDespesa()">Cadastrar</button>
+            </div>
+        </form>
+        <footer id="rodape">
+            <p>Desenvolvido por Nathan Rodrigues e Vitor Stosick</p>
+        </footer>
+    </main>
+</body>
+</html>

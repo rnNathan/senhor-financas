@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/usuario.js" defer></script>
+</head>
+<body>
+    <header id="titulo">
+        <h1>Sistema de Cadastro de Controle de Finanças</h1>
+        <p>Gerir bem as finanças garentem um dia a dia mais tranquilo!</p>
+    </header>
+        <form id="formulario" action="">
+            <div>
+                <label for="user">Login:</label>
+                <input type="text" name="user" id="user" required minlength="3">
+            </div>
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha" required minlength="3">
+            </div>
+            <div>
+                <button id="logar" type="button" onclick="fazerLogin()">Entrar</button>
+                <a href="modules/cadastroUsuario.html">Criar Conta</a>
+            </div>
+        </form>
+    <footer id="rodape">
+        <p>Desenvolvido por Nathan Rodrigues e Vitor Stosick</p>
+    </footer>
+</body>
+</html>

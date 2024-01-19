@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas</title>
+    <link rel="stylesheet" href="../css/receita.css">
+</head>
+<body>
+    <header class="lateral">
+        <img class="logo" src="../img/logo.jpg" alt="Logo da Empresa">
+            <h3>Gerenciador Financeiro</h3>
+        <hr>
+        <section class="links">
+            <a href="receita.html"><p class="btn">Receitas</p></a>
+            <a href="depesas.html"><p class="btn">Despesas</p></a>
+            <a href="relatorios.html"><p class="btn">Relatórios</p></a>
+        </section>
+    </header>
+    <main class="principal">
+        <h1>Receitas</h1>
+        <section class="tabela">
+            <table>
+                <thead id="table-head">
+                    <script src="../js/receita.js" defer></script>
+                    <tr>
+                        <th>Id</th>
+                        <th>Descrição</th>
+                        <th>Data</th>
+                        <th>Valor</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                </tbody>
+                <tfoot id="table-foot" hidden="true">
+                    <tr>
+                        <th></th>
+                        <th>Total - </th>
+                        <td colspan="4" id="total"></td>
+                    </tr>
+            </tfoot>
+            </table>
+            <section id="actions">
+                <div>
+                    <button type="button" onclick="buscarReceita()">Buscar</button>
+                    <button type="button" onclick="limparTabela()">Limpar</button>
+                    <a href="cadastroReceita.html">
+                        <button class="btn-actions" type="button">Cadastrar</button>
+                    </a>
+                </div>
+            </section>
+    </main>
+</body>
+</html>

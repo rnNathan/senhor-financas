@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Despesas</title>
+    <link rel="stylesheet" href="../css/despesa.css">
+    <script src="../js/despesa.js" defer></script>
+</head>
+<body>
+    <header class="lateral">
+        <img class="logo" src="../img/logo.jpg" alt="Logo da Empresa">
+            <h3>Gerenciador Financeiro</h3>
+        <hr>
+        <section class="links">
+            <a href="receita.html"><p class="btn">Receitas</p></a>
+            <a href="depesas.html"><p class="btn">Despesas</p></a>
+            <a href="relatorios.html"><p class="btn">Relatórios</p></a>
+        </section>
+    </header>
+    <main class="principal">
+        <h1>Despesas</h1>
+        <section class="tabela">
+            <table>
+                <thead id="table-head">
+                    <tr>
+                        <th>Id</th>
+                        <th>Descrição</th>
+                        <th>Data Vencimento</th>
+                        <th>Data Pagamento</th>
+                        <th>Valor</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                </tbody>
+                    <tfoot id="table-foot" hidden="true">
+                        <tr>
+                            <th></th>
+                            <th>Total - </th>
+                            <td colspan="5" id="total"></td>
+                        </tr>
+                </tfoot>
+            </table>
+        </section>
+        <section id="actions">
+            <button class="btn-actions" type="button" onclick="buscarDespesa()">Buscar</button>
+            <button class="btn-actions" type="button" onclick="limparTabela()">Limpar</button>
+            <a href="cadastroDespesa.html">
+            <button class="btn-actions" type="button">Cadastrar</button>
+            </a>
+        </section>
+    </main>
+</body>
+</html>
